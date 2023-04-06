@@ -1,10 +1,10 @@
-@media (max-width: 1200px) {
+@media (max-width: 1199.9px) {
     .nav-item {
         margin: 0px 10px;
     }
     
     .contact-item {
-        margin: auto;
+        margin: 0px 5px;
     }
 
     .hero-title {
@@ -25,12 +25,6 @@
     .advantage-item p {
         font-size: 14px;
     }
-    
-    .advantage-img {
-        justify-content: center;
-        width: 80px;
-        border-radius: 50px;
-    }
 
     .services-item h5 {
         font-size: 14px;
@@ -42,7 +36,12 @@
     }
 }
 
-/* @media (max-width: 991.9px) {
+@media (max-width: 991.9px) {
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .hero-content {
         flex-direction: column;
         align-content: center;
@@ -51,10 +50,123 @@
     .header-form {
         width: 500px;
     }
-} */
 
-@media (max-width: 768px) {
+    .advantage-img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .col-md-3 {
+        width: 50%;
+    }
+
+    .advantage-item h4 {
+        margin: auto;
+    }
+    
+    .services-item {
+        height: fit-content;
+        font-size: 16px;
+    }
+
+    .services-item h5 {
+        margin: auto;
+        font-size: 16px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 767.9px) {
+    nav {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .page-logo {
+        width: 60px;
+
+    }
+
+    .social-icon {
+        width: 20px;
+    }
+
+    .hero-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    .page-title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    #about-us {
+        padding-top: 150px;
+    }
+
+    .about-us-text {
+        font-size: 16px;
+    }
+
+    #why-us {
+        padding-top: 100px;
+    }
+
+    #services {
+        padding-top: 150px;
+    }
+
+    #gallery {
+        padding-top: 130px;
+        padding-bottom: 50px;
+    }
+
+    #contact-us {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        background-color: #A4A289;
+    }
+
+    .title {
+        margin-bottom: 25px;
+    }
+
+    .footer-text {
+        font-size: 12px;
+    }
+
+
   }
   
+@media (max-width: 575.9px) {
+    nav {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .page-logo {
+        width: 50px;
+
+    }
+
+    .social-icon {
+        width: 16px;
+    }
+
+    .hero-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    .page-title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .footer-text {
+        font-size: 9px;
+    }
+  }
 @media (max-width: 576px) {
   }

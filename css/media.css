@@ -1,0 +1,248 @@
+@media (max-width: 1199.9px) {
+    .nav-item {
+        margin: 0px 10px;
+    }
+    
+    .contact-item {
+        margin: 0px 5px;
+    }
+
+    .hero-title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    
+    .page-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .advantage-item h4 {
+        font-size: 18px;
+        height: 44px;
+    }
+
+    .advantage-item p {
+        font-size: 14px;
+    }
+
+    .services-item h3 {
+        font-size: 14px;
+        height: 54px;
+    }
+
+    .services-item {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991.9px) {
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .header-form {
+        width: 500px;
+    }
+
+    .advantage-img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .col-md-3 {
+        width: 50%;
+    }
+
+    .advantage-item h4 {
+        margin: auto;
+    }
+    
+    .services-item {
+        height: fit-content;
+        font-size: 16px;
+    }
+
+    .services-item h3 {
+        margin: auto;
+        font-size: 16px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 767.9px) {
+    nav {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .page-logo {
+        width: 60px;
+
+    }
+
+    .social-icon {
+        width: 20px;
+    }
+
+    .hero-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    .page-title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .header-form {
+        width: fit-content;
+    }
+
+
+    .about-us-text {
+        font-size: 16px;
+    }
+
+    #contact-us {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #A4A289;
+    }
+
+    #contact-us .social-icon {
+        width: 26px;
+    }
+
+    .title {
+        margin-bottom: 25px;
+    }
+
+    .footer-text {
+        font-size: 12px;
+    }
+
+
+  }
+  
+@media (max-width: 575.9px) {
+
+    .container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+
+    nav {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .nav-item {
+        margin: auto;
+    }
+
+    .contact-item {
+        margin: 0px 5px;
+    }
+
+    .page-logo {
+        width: 50px;
+
+    }
+
+    .social-icon {
+        width: 16px;
+    }
+
+    .header-content {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .hero-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .page-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .form-floating {
+        font-size: 14px;
+        line-height: 18px;
+        height: fit-content;
+    }
+
+    .submit-btn {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .header-form p {
+        font-size: 12px;
+    }
+
+    .about-us-text {
+        font-size: 12px;
+    }
+
+    .advantage-item h4 {
+        font-size: 16px;
+    }
+
+    .col-md-3 {
+        width: 100%;
+    }
+
+    .advantage-item h4 {
+        font-size: 14px;
+        height: 36px;
+    }
+
+    .advantage-item p {
+        font-size: 12px;
+    }
+
+    .services-item h3 {
+        margin: auto;
+        font-size: 14px;
+        height: 36px;
+    }
+
+    .services-item {
+        font-size: 12px;
+    }
+
+    #gallery .col {
+        flex: 50%;
+    }
+
+    #contact-us h4 {
+        margin: 15px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    #contact-us .social-icon {
+        width: 26px;
+    }
+
+    .footer-text {
+        font-size: 8px;
+    }
+  }
